@@ -13,4 +13,5 @@ func main() {
 	subpackage.Hello()
 
 	_ = subpackage.Config{}
+	_ = Config{}
 }
