@@ -7,4 +7,6 @@ import (
 
 func main() {
 	subpackage.Hello()
+
+	_ = subpackage.Config{}
 }
