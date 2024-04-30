@@ -1,9 +1,9 @@
 package subpackage
 
 import (
-	"github.com/printesoi/build-test-go/config2"
+	"github.com/printesoi/build-test-go/subpackage/config"
 )
 
 type Config struct {
-	Config2 config2.Config
+	config.Config
 }
