@@ -5,13 +5,6 @@ import (
 	"github.com/printesoi/build-test-go/subpackage"
 )
 
-type Config struct {
-	Type string
-}
-
 func main() {
-	subpackage.Hello()
-
 	_ = subpackage.Config{}
-	_ = Config{}
 }

@@ -1,15 +1,9 @@
 package subpackage
 
 import (
-	"fmt"
-
-	"github.com/printesoi/build-test-go/config"
+	"github.com/printesoi/build-test-go/config2"
 )
 
 type Config struct {
-	config.Config
-}
-
-func Hello() {
-	fmt.Println("Hello from subpackage")
+	Config2 config2.Config
 }
